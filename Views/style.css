@@ -19,6 +19,10 @@
     font-size: 30px;
 }
 
+.btnPlay:hover {
+    cursor: pointer;
+}
+
 .btnMore {
     text-align: center;
     background-color: gold;
@@ -29,6 +33,14 @@
     width: 100px;
     margin: 8px;
     padding: 5px;
+}
+
+.btnMore:hover {
+    cursor: pointer;
+}
+
+.btnMore a {
+    text-decoration: none;
 }
 
 body {
