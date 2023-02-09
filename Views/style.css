@@ -1,0 +1,49 @@
+.titleImg {
+    margin-top: 20px;
+    width: 500px;
+    height: 300px;
+    margin-left: 35%;
+}
+.btnPlay {
+    position: absolute;
+    text-align: center;
+    background-color: gold;
+    border: 2px black solid;
+    width: 300px;
+    height: 40px;
+    left: 41%;
+    margin-top: 10%;
+    border-radius: 2px;
+    padding: 5px;
+    font: bold;
+    font-size: 30px;
+}
+
+.btnPlay:hover {
+    cursor: pointer;
+}
+
+.btnMore {
+    text-align: center;
+    background-color: gold;
+    border: 2px black solid;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    margin: 8px;
+    padding: 5px;
+}
+
+.btnMore:hover {
+    cursor: pointer;
+}
+
+.btnMore a {
+    text-decoration: none;
+}
+
+body {
+    background: url('https://media.istockphoto.com/id/1079751628/photo/abstract-green-grunge-background.jpg?s=612x612&w=0&k=20&c=kUAiJg_PBogH3Ud00PNK8hCxQsX5j6bE6YT56pa92UM=') no-repeat center center fixed;
+    background-size: cover;
+}
