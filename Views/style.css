@@ -23,6 +23,10 @@
     cursor: pointer;
 }
 
+.btnPlay a {
+    text-decoration: none;
+}
+
 .btnMore {
     text-align: center;
     background-color: gold;
@@ -47,3 +51,4 @@ body {
     background: url('https://media.istockphoto.com/id/1079751628/photo/abstract-green-grunge-background.jpg?s=612x612&w=0&k=20&c=kUAiJg_PBogH3Ud00PNK8hCxQsX5j6bE6YT56pa92UM=') no-repeat center center fixed;
     background-size: cover;
 }
+
