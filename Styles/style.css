@@ -1,0 +1,23 @@
+.txt1{
+    text-align: center;
+    font-size: 80px;
+    color: aliceblue;
+    
+}
+
+.btnL{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 200px;
+    height: 90px; 
+}
+
+.btnR{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 90px; 
+}
+
