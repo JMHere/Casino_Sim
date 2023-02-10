@@ -2,10 +2,33 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styleSlot.css">
+    <script src="../slots.js" ></script>
     <title>Document</title>
 </head>
 <body>
-    <img src="../Assets/OverallUI/ComingSoonStamp.png" alt="Coming Soon Image">
+
+    <h1 class="MTitle">Slot Machine</h1>
+
+    <div class="slots" id="slots">
+        <div id="slot1">
+            <img class="cherry" id="cherry1" src="../slotimages/cherry.jpg" alt="cherries">
+            <img class="cherry" id="diamond1" src="../slotimages/diamond.jpg" alt="diamond">
+        </div>
+        <div id="slot2">
+            <img class="cherry" id="cherry2" src="../slotimages/cherry.jpg" alt="cherries">
+            <img class="cherry" id="diamond2" src="../slotimages/diamond.jpg" alt="diamond">
+        </div>
+        <div id="slot3">
+            <img class="cherry" id="cherry3" src="../slotimages/cherry.jpg" alt="cherries">
+            <img class="cherry" id="diamond3" src="../slotimages/diamond.jpg" alt="diamond">
+        </div>
+    </div>
+
+    <input type="button" value="Roll" onclick="spin()"/>
+
+    <audio id="bruh">
+        <source src="../Audio/winslotmachine.wav" type="audio/mpeg">
+    </audio>
 
     <div class="btnBack">
         <a href="Menu.html">Exit Game</a>

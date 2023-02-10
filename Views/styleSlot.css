@@ -1,17 +1,24 @@
-html {
-    background-color: black;
-}
-
 .comingSoon {
     align-items: center;
     
 }
 
-img {
-    width: 800px;
-    height: 200px;
-    margin: 5%;
+.slots {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(0, -50%);
 }
+
+.slots div {
+    margin: 10px;
+    padding: 5px;
+    border: 2px black solid;
+    float: left;
+    
+}
+
 
 .btnBack {
     position: fixed;
@@ -26,4 +33,8 @@ img {
 
 .btnBack a {
     text-decoration: none;
+}
+
+.cherry {
+    display: none;
 }
