@@ -1,0 +1,29 @@
+html {
+    background-color: black;
+}
+
+.comingSoon {
+    align-items: center;
+    
+}
+
+img {
+    width: 800px;
+    height: 200px;
+    margin: 5%;
+}
+
+.btnBack {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: gold;
+    border: 2px black solid;
+    padding: 4px;
+    margin: 5px;
+    color: black;
+}
+
+.btnBack a {
+    text-decoration: none;
+}
