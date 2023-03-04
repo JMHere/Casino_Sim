@@ -7,31 +7,59 @@
 </head>
 <body>
 
-    <h1 class="MTitle">Slot Machine</h1>
+    <div class="slotLogo">
+        <img  src="../Assets/OverallUI/SlotMachineIcon.png" alt="slotLogo" width="500" height="250" >
+    </div>
+
+    <div class="slotMachine">
+        <img class="machineImg" src="https://t3.ftcdn.net/jpg/00/80/78/38/240_F_80783840_ZjoE8OFIrRb4mg2yjbLatnFiiKOLDjTd.jpg" alt="slot machine" width="980" height="400">
+    </div>
 
     <div class="slots" id="slots">
         <div id="slot1">
+            <img class="cherry" id="bar1" src="../slotimages/bar.jpg" alt="bar">
+            <img class="7" id="seven1" src="../slotimages/seven.jpg" alt="seven" >
             <img class="cherry" id="cherry1" src="../slotimages/cherry.jpg" alt="cherries">
             <img class="cherry" id="diamond1" src="../slotimages/diamond.jpg" alt="diamond">
         </div>
         <div id="slot2">
+            <img class="cherry" id="bar2" src="../slotimages/bar.jpg" alt="bar">
+            <img class="7" id="seven2" src="../slotimages/seven.jpg" alt="seven" >
             <img class="cherry" id="cherry2" src="../slotimages/cherry.jpg" alt="cherries">
             <img class="cherry" id="diamond2" src="../slotimages/diamond.jpg" alt="diamond">
         </div>
         <div id="slot3">
+            <img class="cherry" id="bar3" src="../slotimages/bar.jpg" alt="bar">
+            <img class="7" id="seven3" src="../slotimages/seven.jpg" alt="seven" >
             <img class="cherry" id="cherry3" src="../slotimages/cherry.jpg" alt="cherries">
             <img class="cherry" id="diamond3" src="../slotimages/diamond.jpg" alt="diamond">
         </div>
     </div>
 
-    <input type="button" value="Roll" onclick="spin()"/>
+    <button value="Roll" onclick="spin()" class="btnLever">
+        <img class="lever" src="../slotimages/SLOT-Machine-handle.png" alt="slot machine lever">
+    </button>
 
-    <audio id="bruh">
+    <audio id="win">
         <source src="../Audio/winslotmachine.wav" type="audio/mpeg">
     </audio>
+    <div class="txtWin" id="winText">
+        You Win!!
+    </div>
+
+    <div class="divRules" id="rules">
+        Rules
+        <br />
+        Coins: This is where you select how much you bet per spin
+    </div>
+
+    <button class="btnRules" onclick="rules()" >Rules</button>
 
     <div class="btnBack">
         <a href="Menu.html">Exit Game</a>
     </div>
+
+
+
 </body>
 </html>
