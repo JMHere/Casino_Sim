@@ -1,5 +1,6 @@
-html {
-    background-color: black;
+body {
+    background: url('https://img.freepik.com/premium-vector/black-checkerboard-checkered-gingham-plaid-pattern-background-perfect-wallpaper-backdrop_565280-400.jpg') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .comingSoon {
@@ -8,10 +9,56 @@ html {
 }
 
 img {
-    width: 800px;
-    height: 200px;
-    margin: 5%;
+    position: fixed;
+    left: 35%;
 }
+
+.cardOne{
+    background-color: lightgreen;
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+}
+
+.cardTwo {
+    background-color: lightgreen;
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+}
+
+.cardThree {
+    background-color: lightgreen;
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+}
+
+.cardFour {
+    background-color: lightgreen;
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+}
+
+.cardFive {
+    background-color: lightgreen;
+    width: 200px;
+    height: 250px;
+    margin: 5px;
+}
+
+
+.plyDeck {
+    position: fixed;
+    bottom: 20px;
+}
+
+.plyDeck div {
+    margin-bottom: 200px;
+    float: left;
+}
+
 
 .btnBack {
     position: fixed;
