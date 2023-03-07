@@ -1,14 +1,44 @@
+
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <link rel="stylesheet" href="styleBlackJack.css">
-    <title>Document</title>
-</head>
-<body>
-    <img src="../Assets/OverallUI/ComingSoonStamp.png" alt="Coming Soon Image">
+<html class="background" style="background-color: rgb(66, 142, 117);">
+  <head >
+    <title>Balck Jack Game</title>
+
+    <!-- <meta charset="UTF-8" /> -->
+    
+  </head>
+
+  <body >
+    <div>
+    
+    <h1 id="title">BlackJack</h1>
+    <br />
+
+    <p id="text-area">Welcome to blackJack</p>
+
+    <button id="new-game-button">New game</button>
+
+    <button id="hit-button">Hit</button>
+
+    <button id="stay-button">Stay</button>
+    </div>
 
     <div class="btnBack">
-        <a href="Menu.html">Exit Game</a>
+      <a href="Menu.html">Exit Game</a>
     </div>
-</body>
+
+      <div class="divRules" id="rules">
+        Rules
+        <br />
+        The first player that gets the closest to 21 without going over is the winner. 
+    </div>
+
+    <button class="btnRules" onclick="rules()">Rules</button>
+
+  
+
+  </body>
+  <link rel="stylesheet" href="styleBlackJack.css">
+
+  <script type="text/javascript" src="../BlackJack.js"></script>
 </html>

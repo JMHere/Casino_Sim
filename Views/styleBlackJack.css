@@ -13,6 +13,11 @@ img {
     margin: 5%;
 }
 
+.card{
+    height: 150px;
+    width: 100px;
+}
+
 .btnBack {
     position: fixed;
     left: 0;
@@ -26,4 +31,73 @@ img {
 
 .btnBack a {
     text-decoration: none;
+}
+
+.card {
+	height: 200px;
+	width: 140px;
+}
+
+#game {
+	text-align: center;
+}
+
+#dealer {
+	display: inline-block;
+}
+
+#dealer-hand, #player-hand {
+	display: flex;
+	flex-direction: row;
+}
+
+#player {
+	display: inline-block;
+	margin-left: 100px;
+}
+
+button {
+	margin-top: 20px;
+	padding: 5px 20px;
+	font-size: 20px;
+}
+
+#message {
+	font-size: 24px;
+	font-weight: bold;
+	color: red;
+}
+
+.background{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+.divRules {
+    opacity: 0.8;
+    margin: auto;
+    position: absolute;
+    transform: translate(0, -50%);
+    left: 20%;
+    top: 30%;
+    color: white;
+    background: black;
+    font-size: 48px;
+    padding: 20px;
+    display: none;
+}
+
+.btnRules {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: gold;
+    border: 2px black solid;
+    padding: 4px;
+    margin: 5px;
+    font-size: 20px;
+    color: black;
 }
