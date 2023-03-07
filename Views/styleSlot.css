@@ -7,16 +7,46 @@
     margin: auto;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 28%;
     transform: translate(0, -50%);
 }
 
+.slotMachine {
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 22%;
+    transform: translate(0, -50%)
+}
+
+.machineImg {
+    width: 640;
+    height: 300;
+}
+
 .slots div {
-    margin: 10px;
+    margin: 42px;
     padding: 5px;
-    border: 2px black solid;
     float: left;
     
+}
+
+.lever {
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 79%;
+    transform: translate(0, -50%);
+}
+
+
+.txtWin {
+    margin: auto;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(0, -50%);
+    display: none;
 }
 
 
@@ -37,4 +67,40 @@
 
 .cherry {
     display: none;
+}
+
+.slotLogo {
+    position: fixed;
+    left: 35%;
+}
+
+.divRules {
+    opacity: 0.8;
+    margin: auto;
+    position: absolute;
+    transform: translate(0, -50%);
+    left: 20%;
+    top: 30%;
+    color: white;
+    background: black;
+    font-size: 48px;
+    padding: 20px;
+    display: none;
+}
+
+.btnRules {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    background-color: gold;
+    border: 2px black solid;
+    padding: 4px;
+    margin: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+body {
+    background: url('https://media.istockphoto.com/id/1079751628/photo/abstract-green-grunge-background.jpg?s=612x612&w=0&k=20&c=kUAiJg_PBogH3Ud00PNK8hCxQsX5j6bE6YT56pa92UM=') no-repeat center center fixed;
+    background-size: cover;
 }
