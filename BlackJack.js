@@ -213,8 +213,19 @@ function checkForEndOfGame() {
     } else {
       playerWon = false;
     }
-    // newGameButton.style.display = "inline";
-    // hitButton.style.display = "none";
-    // stayButton.style.display = "none";
+ 
+    
   }
+
+ 
+}
+
+ function rules() {
+    const rules = getId("rules");
+
+    if(rules.style.display == "block") {
+        rules.style.display = "none"
+    } else {
+        rules.style.display = "block"
+    }
 }
